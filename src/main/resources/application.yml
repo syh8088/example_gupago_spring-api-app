@@ -30,6 +30,7 @@ spring:
 
 logging:
   level:
+    com.app: debug
     org:
       hibernate:
         SQL: DEBUG
@@ -37,3 +38,9 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
