@@ -44,3 +44,16 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
+
+kakao:
+  client:
+    id: 5cb00604264a9df18fa52392f86a6af9
+    secret: DI307ZiQHDYpAjEZRCfprmuv86KgyTV4
+
+token:
+  secret: ENC(9c9uJh1XDJMe72tcz8o94Z1pqQxRrUdKaxFAlScPFuIGZtp57tFR3Q==)
+  access-token-expiration-time: 900000
+  refresh-token-expiration-time: 1209600000
+
+jasypt:
+  password: ${PASSWORD}
