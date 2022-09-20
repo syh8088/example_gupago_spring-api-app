@@ -51,7 +51,8 @@ kakao:
     secret: DI307ZiQHDYpAjEZRCfprmuv86KgyTV4
 
 token:
-  secret: ENC(9c9uJh1XDJMe72tcz8o94Z1pqQxRrUdKaxFAlScPFuIGZtp57tFR3Q==)
+#  secret: ENC(9c9uJh1XDJMe72tcz8o94Z1pqQxRrUdKaxFAlScPFuIGZtp57tFR3Q==)
+  secret: and0LXRva2VuLxnLY3JLdA
   access-token-expiration-time: 900000
   refresh-token-expiration-time: 1209600000
 
