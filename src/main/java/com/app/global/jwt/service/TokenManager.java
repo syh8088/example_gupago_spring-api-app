@@ -99,5 +99,7 @@ public class TokenManager {
             log.info("유효하지 않은 token", e);
             throw new AuthenticationException(ErrorCode.NOT_VALID_TOKEN);
         }
+
+        return claims;
     }
 }
