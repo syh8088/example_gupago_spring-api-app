@@ -49,8 +49,7 @@ public class Member extends BaseEntity {
     private LocalDateTime tokenExpirationTime;
 
     @Builder
-    public Member(MemberType memberType, String email, String password, String memberName,
-                  String profile, Role role) {
+    public Member(MemberType memberType, String email, String password, String memberName, String profile, Role role) {
         this.memberType = memberType;
         this.email = email;
         this.password = password;
