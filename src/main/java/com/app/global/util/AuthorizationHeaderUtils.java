@@ -10,7 +10,7 @@ public class AuthorizationHeaderUtils {
     public static void validateAuthorization(String authorizationHeader) {
 
         // 1. authorizationHeader 필수 체크
-        if(!StringUtils.hasText(authorizationHeader)) {
+        if (!StringUtils.hasText(authorizationHeader)) {
             throw new AuthenticationException(ErrorCode.NOT_EXISTS_AUTHORIZATION);
         }
 
