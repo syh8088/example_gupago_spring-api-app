@@ -47,14 +47,14 @@ feign:
 
 kakao:
   client:
-    id: 5cb00604264a9df18fa52392f86a6af9
-    secret: DI307ZiQHDYpAjEZRCfprmuv86KgyTV4
+    id: ENC(/ONFGpQohvL2YXpoISfjkptWt/oRfjgTTssvAl05nDfyVXmffwhtZ2A0KdEMctZz)
+    secret: ENC(Pd+/m1Pkuk/K2kHm69XQ8D1JZ1cMODE9VtBJum9gHO83eZyp9uqpJ2x+P0BOym2j)
 
 token:
-#  secret: ENC(9c9uJh1XDJMe72tcz8o94Z1pqQxRrUdKaxFAlScPFuIGZtp57tFR3Q==)
-  secret: and0LXRva2VuLxnLY3JLdA
+  secret: ENC(RuvwUOvYpyOPTnbEwS1M51gLmQlFEI1VWweF+I/D+jE=)
+  #secret: and0LXRva2VuLxnLY3JLdA
   access-token-expiration-time: 900000
   refresh-token-expiration-time: 1209600000
 
 jasypt:
-  password: ${PASSWORD}
+  password: ${PASSWORD} # -Djasypt.password=test
