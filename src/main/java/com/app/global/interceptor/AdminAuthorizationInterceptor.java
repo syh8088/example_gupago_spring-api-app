@@ -28,7 +28,7 @@ public class AdminAuthorizationInterceptor implements HandlerInterceptor {
         String role = (String)tokenClaims.get("role");
 
         if (!Role.ADMIN.equals(Role.valueOf(role))) {
-          //  throw new AuthenticationException(ErrorCode.FORBIDDEN_ADMIN);
+            throw new AuthenticationException(ErrorCode.FORBIDDEN_ADMIN);
         }
 
         return true;
